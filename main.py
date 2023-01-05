@@ -13,3 +13,4 @@ invertedBlur = cv2.bitwise_not(blur)
 sketch = cv2.divide(greyImg, invertedBlur, scale=scaleValue)
 
 cv2.imwrite(imageToSave, sketch)
+
